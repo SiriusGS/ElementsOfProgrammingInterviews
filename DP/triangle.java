@@ -3,6 +3,8 @@ public class Solution {
      * @param triangle: a list of lists of integers.
      * @return: An integer, minimum path sum.
      */
+    // version 0: top-down
+ 
     public int minimumTotal(int[][] triangle) {
         if (triangle == null || triangle.length == 0) {
             return -1;
